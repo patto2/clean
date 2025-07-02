@@ -1,0 +1,288 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.header {
+    width: 100vw;
+    height: 500px;
+    background-image:
+     linear-gradient(rgba(58, 233, 14, 0.411), rgba(240, 53, 247, 0.582)), url(/images/make\ aboy\ clean.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+
+.header .nav {
+    width: 95vw;
+    height: 60px;
+    border-bottom: solid white 2px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+}
+
+.nav .logowrapper {
+    width: 8vw;
+    height: 60px;
+}
+
+.navigation {
+    margin-left: 45%;
+}
+
+.logowrapper img {
+    width: 6vw;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation ul li a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    transition: ease 0.3s;
+}
+
+.navigation ul li a:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.heading {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headline p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: -50px;
+}
+
+button {
+    padding: 15px;
+    border: solid rgba(255, 255, 0, 0.623) 2px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 50%;
+    transition: ease 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: rgba(15, 230, 15, 0.5);
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+button a:hover {
+    color: white;
+}
+
+/* Ende of Section Banner*/
+
+.bodywrapper {
+    background-color: rgba(149, 221, 221, 0.493);
+    width: 100vw;
+    margin-top: 20px;
+    
+}
+
+.boxes {
+    width: 95vw;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    
+}
+
+.box1 {
+    width: 31vw;
+    background-color: rgba(233, 233, 193, 0.589);
+    border: solid white 2px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.box1 img {
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 10px;
+}
+
+.box1 h4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: dotted rgb(241, 161, 10) 2px;
+}
+
+.box1 p {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.btn {
+    padding: 15px;
+    border: solid rgba(255, 255, 0, 0.623) 2px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 35%;
+    transition: ease 0.3s;
+    margin-top: 20px;
+}
+
+btn {
+    background-color: rgba(204, 219, 204, 0.973);
+    cursor: pointer;
+}
+
+btn a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+btn a:hover {
+    color: white;
+}
+
+/* Ende of Section bodywrapper*/
+
+.bodyimage {
+    background-color: rgba(149, 221, 221, 0.493);
+    width: 100vw;
+    margin-top: 20px;
+;
+    
+}
+
+.images {
+    width: 95vw;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    
+}
+
+.images1 {
+    width: 62vw;
+    background-color: rgba(3, 145, 150, 0.589);
+    border: solid rgba(17, 245, 85, 0.884) 2px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.images1 img {
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 10px;
+}
+
+.bodyimages{
+     /* background-color: rgba(149, 221, 221, 0.493); */
+    width: 100vw;
+    margin-top: 20px;
+    
+}
+
+.imges {
+    width: 95vw;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    
+}
+
+.images1 {
+    width: 70vw;
+    background-color: rgba(233, 233, 193, 0.589);
+    border: solid white 2px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.images1 h4 {
+    text-align: center;
+}
+
+.images2 {
+    width: 62vw;
+    background-color: rgb(183, 187, 183)
+    ; 
+    /* border: solid white 2px; */
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.images2 h4 {
+    text-align: left;
+}
+
+.footer{
+    
+    background-color: #f70223;
+    columns: rgb(17, 2, 2);
+    padding: 20px;
+    text-align: center;
+    width: 100vw;
+}
+.footer-content ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+
+}
+
+.footer-content ul li{
+    display: inline;
+    margin: 0 10px;
+    
+}
+
+
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content ul li a :hover {
+    text-decoration: underline;
+    background-color:#0be441f3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
